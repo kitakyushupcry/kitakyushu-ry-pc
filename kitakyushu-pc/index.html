@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>北九州パソコン修理・組立工房 RY | 安心の公式サポート</title>
+    <meta name="google-site-verification" content="lIlMQKHCtYHxjFduZTwdEICpsvgA0Kv3AS-qfIuW4CY" />    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Noto Sans JP', sans-serif; }
+        
+        /* 밝은 파란색 배경 워터마크 효과 (bg-logo.jpg) */
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background-image: url('images/bg-logo.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 550px auto;
+            opacity: 0.4;
+            pointer-events: none;
+            z-index: 0;
+        }
+    </style>
+</head>
+<body class="bg-sky-50 text-slate-800 antialiased selection:bg-blue-600 selection:text-white relative">
+
+    <!-- Top Security Notice Bar -->
+    <div class="relative z-10 bg-blue-900 text-blue-100 text-xs py-2 px-4 text-center font-medium border-b border-blue-800">
+        <span class="inline-flex items-center gap-1.5">
+            <i class="fa-solid fa-shield-check text-emerald-400"></i>
+            当工房は福岡県北九州市を拠点とする実店舗・対面対応型の正規パソコン専門店です。個人情報は厳重に保護されます。
+        </span>
+    </div>
+
+    <!-- Header / Navigation -->
+    <header class="sticky top-0 z-50 bg-sky-50/90 backdrop-blur-md border-b border-sky-200 shadow-xs">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <!-- 왼쪽 상단 로고 -->
+                <img src="images/logo.jpg" alt="RY Logo" class="w-12 h-12 rounded-full object-cover border border-sky-300 shadow-sm">
+                <div>
+                    <span class="text-[11px] font-bold text-blue-700 tracking-wider block">北九州の安心・安全なパソコン専門店</span>
+                    <h1 class="text-base sm:text-lg font-black tracking-tight text-slate-900">北九州パソコン修理・組立工房 RY</h1>
+                </div>
+            </div>
+            <nav class="hidden md:flex items-center space-x-6 text-sm font-medium text-slate-700">
+                <a href="#safety-policy" class="hover:text-blue-600 transition flex items-center gap-1"><i class="fa-solid fa-lock text-xs text-blue-600"></i> セキュリティ方針</a>
+                <a href="#qualifications" class="hover:text-blue-600 transition flex items-center gap-1"><i class="fa-solid fa-certificate text-xs text-blue-600"></i> 保有国家資格</a>
+                <a href="#features" class="hover:text-blue-600 transition">選ばれる理由</a>
+                <a href="#services" class="hover:text-blue-600 transition">サービス・料金</a>
+                <a href="#access" class="hover:text-blue-600 transition">店舗情報・所在地</a>
+            </nav>
+            <div>
+                <a href="https://lin.ee/6B4udni" target="_blank" class="bg-emerald-600 hover:bg-emerald-700 text-white px-4 py-2.5 rounded-lg font-bold text-sm shadow-sm transition flex items-center space-x-2">
+                    <i class="fa-brands fa-line text-lg"></i>
+                    <span>公式LINEで安全相談</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative z-10 bg-sky-50/60 backdrop-blur-xs text-slate-900 py-20 lg:py-28 overflow-hidden border-b border-sky-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                <div class="lg:col-span-7">
+                    <div class="inline-flex items-center space-x-2 bg-emerald-50 text-emerald-800 border border-emerald-200 text-xs font-bold px-3 py-1.5 rounded-md mb-6">
+                        <i class="fa-solid fa-circle-check text-emerald-600"></i>
+                        <span>国家公認資格保有の技術者が直接対応・LINE公式アカウント認証済み</span>
+                    </div>
+                    <h2 class="text-3xl sm:text-5xl font-black tracking-tight leading-tight mb-6 text-slate-900">
+                        顔が見える、だから安心。<br>北九州のパソコン修理・組立は<span class="text-blue-700">北九州パソコン修理・組立工房 RY</span>にお任せ。
+                    </h2>
+                    <p class="text-base sm:text-lg text-slate-700 mb-8 leading-relaxed">
+                        「ネットの業者や遠方の郵送は不安…」というお客様へ。北九州市小倉北区を拠点に、国家資格に裏付けられた確かな技術力と、お顔合わせ可能な対面サポートでお応えします。
+                    </p>
+                    <div class="flex flex-col sm:flex-row space-y-3 sm:space-y-0 sm:space-x-4">
+                        <a href="https://lin.ee/6B4udni" target="_blank" class="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-xl font-bold text-center shadow-md transition flex items-center justify-center space-x-3 text-base">
+                            <i class="fa-brands fa-line text-2xl"></i>
+                            <span>公式LINEで安心して相談する</span>
+                        </a>
+                        <a href="#qualifications" class="bg-sky-100 hover:bg-sky-200 text-slate-800 border border-sky-300 px-6 py-4 rounded-xl font-bold text-center transition flex items-center justify-center gap-2">
+                            <i class="fa-solid fa-certificate text-blue-700"></i> 保有国家資格を確認する
+                        </a>
+                    </div>
+                </div>
+                <!-- Right Trust Box Card -->
+                <div class="lg:col-span-5">
+                    <div class="bg-sky-100/80 border border-sky-300 rounded-2xl p-6 sm:p-8 shadow-sm backdrop-blur-xs">
+                        <h3 class="font-black text-slate-900 text-lg mb-4 flex items-center gap-2 border-b border-sky-200 pb-3">
+                            <i class="fa-solid fa-circle-info text-blue-700"></i> 当工房の3つの安心約束
+                        </h3>
+                        <ul class="space-y-4 text-sm text-slate-800">
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-check text-emerald-600 mt-1"></i>
+                                <div><strong>国家公認ライセンス：</strong>電気工事・施工管理・冷凍機械等の専門国家資格を多数保有。</div>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-check text-emerald-600 mt-1"></i>
+                                <div><strong>完全事前見積もり：</strong>ご納得いただかない追加作業や料金請求は一切ありません。</div>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <i class="fa-solid fa-check text-emerald-600 mt-1"></i>
+                                <div><strong>厳重なデータ管理：</strong>お客様の大切な個人情報・データは外部に出さず安全に扱います。</div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detailed Security Policy Section -->
+    <section id="safety-policy" class="relative z-10 py-16 bg-sky-100/60 border-b border-sky-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-3xl mx-auto text-center mb-12">
+                <span class="text-blue-700 font-bold text-xs tracking-widest uppercase block mb-2">Security & Privacy Assurance</span>
+                <h3 class="text-2xl sm:text-3xl font-black text-slate-900">不正アクセスやセキュリティに関する当工房の方針</h3>
+                <p class="text-slate-700 text-sm mt-3">昨今、ネット上の偽サイトや不正アクセスに関するご不安ボイスが増えております。お客様に100%安心してご利用いただくための安全対策を公開しています。</p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-sky-50/90 p-6 rounded-xl border border-sky-200 shadow-xs">
+                    <div class="text-blue-700 text-xl mb-3"><i class="fa-solid fa-id-card-clip"></i></div>
+                    <h4 class="font-bold text-slate-900 text-base mb-2">1. 実態の明らかな運営者情報</h4>
+                    <p class="text-sm text-slate-700 leading-relaxed">福岡県北九州市小倉北区の所在地を明確にし、代表者が直接お客様のご相談から作業、お引き渡しまで一貫して責任を持ち対応いたします。</p>
+                </div>
+                <div class="bg-sky-50/90 p-6 rounded-xl border border-sky-200 shadow-xs">
+                    <div class="text-blue-700 text-xl mb-3"><i class="fa-solid fa-comments"></i></div>
+                    <h4 class="font-bold text-slate-900 text-base mb-2">2. LINE公式認証アカウントの利用</h4>
+                    <p class="text-sm text-slate-700 leading-relaxed">怪しい外部チャットツールや不審なリンク誘導は一切行いません。LINEが公式に審査・認証したビジネスアカウント（@019jorrw）でのみやり取りを行います。</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Qualifications & Expertise Section -->
+    <section id="qualifications" class="relative z-10 py-20 bg-sky-50/90 border-b border-sky-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <span class="text-blue-700 font-bold text-xs tracking-widest uppercase block mb-2">National Qualifications & Technical Expertise</span>
+                <h3 class="text-3xl font-black text-slate-900 mb-4">国家公認の資格と確かな技術力</h3>
+                <p class="text-slate-700 text-sm leading-relaxed">
+                    当工房の代表は、電気・空調・施工管理・安全衛生にわたる多数の日本国家資格および専門技術認定を保有しています。高度な専門知識と安全基準にもとづく、信頼できる技術サービスをお約束します。
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Card 1: Electrical & Management -->
+                <div class="bg-sky-50/95 p-8 rounded-2xl border border-sky-300 shadow-xs flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 bg-blue-700 text-white rounded-xl flex items-center justify-center text-xl mb-6 shadow-sm">
+                            <i class="fa-solid fa-bolt"></i>
+                        </div>
+                        <h4 class="text-lg font-bold text-slate-900 mb-3 border-b border-sky-200 pb-2">電気工事・施工管理分野</h4>
+                        <ul class="space-y-2.5 text-sm text-slate-700">
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-check text-blue-600 mt-1"></i>
+                                <span><strong>第一種・第二種電気工事士 免状</strong></span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-check text-blue-600 mt-1"></i>
+                                <span><strong>認定電気工事従事者認定証</strong></span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-check text-blue-600 mt-1"></i>
+                                <span><strong>1級電気工事施工管理技士補</strong></span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-check text-blue-600 mt-1"></i>
+                                <span><strong>2級電気工事施工管理技士</strong></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-sky-200 text-xs text-slate-500">
+                        <i class="fa-solid fa-shield-halved text-blue-600"></i> 九州産業保安監督部及び福岡県発行
+                    </div>
+                </div>
+
+                <!-- Card 2: Refrigeration, Gas & Welding -->
+                <div class="bg-sky-50/95 p-8 rounded-2xl border border-sky-300 shadow-xs flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 bg-blue-700 text-white rounded-xl flex items-center justify-center text-xl mb-6 shadow-sm">
+                            <i class="fa-solid fa-snowflake"></i>
+                        </div>
+                        <h4 class="text-lg font-bold text-slate-900 mb-3 border-b border-sky-200 pb-2">冷凍機械・ガス・溶接分野</h4>
+                        <ul class="space-y-2.5 text-sm text-slate-700">
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-check text-blue-600 mt-1"></i>
+                                <span><strong>第3種冷凍機械 製造保安責任者免状</strong></span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-check text-blue-600 mt-1"></i>
+                                <span><strong>冷凍空調設備科 職業訓練修了 (1,400時間)</strong></span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-check text-blue-600 mt-1"></i>
+                                <span><strong>ガス溶接技能講習修了証</strong></span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-check text-blue-600 mt-1"></i>
+                                <span><strong>アーク溶接等特別教育修了証</strong></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-sky-200 text-xs text-slate-500">
+                        <i class="fa-solid fa-shield-halved text-blue-600"></i> 福岡県知事及び専門学校認定
+                    </div>
+                </div>
+
+                <!-- Card 3: Heavy Machinery & Safety Management -->
+                <div class="bg-sky-50/95 p-8 rounded-2xl border border-sky-300 shadow-xs flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 bg-blue-700 text-white rounded-xl flex items-center justify-center text-xl mb-6 shadow-sm">
+                            <i class="fa-solid fa-hard-hat"></i>
+                        </div>
+                        <h4 class="text-lg font-bold text-slate-900 mb-3 border-b border-sky-200 pb-2">重機運転・現場安全管理分野</h4>
+                        <ul class="space-y-2.5 text-sm text-slate-700">
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-check text-blue-600 mt-1"></i>
+                                <span><strong>クレーン運転 / フォークリフト(1t未満) 特別教育</strong></span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-check text-blue-600 mt-1"></i>
+                                <span><strong>高所作業車 / 小型車両系建設機械 特別教育</strong></span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-check text-blue-600 mt-1"></i>
+                                <span><strong>高圧・特別高圧電気取扱者 安全衛生特別教育</strong></span>
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <i class="fa-solid fa-check text-blue-600 mt-1"></i>
+                                <span><strong>職長・安全衛生責任者教育修了</strong></span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-sky-200 text-xs text-slate-500">
+                        <i class="fa-solid fa-shield-halved text-blue-600"></i> 労働安全衛生法に基づく正規修了
+                    </div>
+                </div>
+            </div>
+
+            <!-- Additional Language & Global Trust Banner -->
+            <div class="mt-10 bg-sky-100/80 border border-sky-300 rounded-2xl p-6 sm:p-8 flex flex-col md:flex-row items-center justify-between gap-6">
+                <div class="flex items-center space-x-4">
+                    <div class="text-blue-700 text-3xl">
+                        <i class="fa-solid fa-earth-asia"></i>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-slate-900 text-base mb-1">グローバルなコミュニケーション力と信頼のキャリア</h4>
+                        <p class="text-slate-700 text-sm">
+                            <strong>日本語能力試験(JLPT) N1取得</strong>およびCCUS（建設キャリアアップシステム）登録により、円滑で透明性の高い安心のサポートをお約束します。
+                        </p>
+                    </div>
+                </div>
+                <a href="https://lin.ee/6B4udni" target="_blank" class="shrink-0 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-xl font-bold text-sm transition shadow-sm">
+                    専門家に相談する
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="relative z-10 py-20 bg-sky-50/70">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="text-blue-700 font-bold text-xs tracking-widest uppercase block mb-2">Why Choose Us</span>
+                <h3 class="text-3xl font-black text-slate-900">当工房が選ばれる理由</h3>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-sky-50/90 p-8 rounded-2xl border border-sky-200 shadow-xs">
+                    <div class="w-12 h-12 bg-blue-600 text-white rounded-xl flex items-center justify-center text-xl mb-6 shadow-sm">
+                        <i class="fa-solid fa-house-laptop"></i>
+                    </div>
+                    <h4 class="text-lg font-bold text-slate-900 mb-2">適正価格・明朗会計</h4>
+                    <p class="text-slate-700 text-sm leading-relaxed">
+                        無駄な店舗維持費をカットし、家電量販店よりもリーズナブルで親身な価格設定。作業前に必ずお見積りをご提示します。
+                    </p>
+                </div>
+                <div class="bg-sky-50/90 p-8 rounded-2xl border border-sky-200 shadow-xs">
+                    <div class="w-12 h-12 bg-blue-600 text-white rounded-xl flex items-center justify-center text-xl mb-6 shadow-sm">
+                        <i class="fa-solid fa-language"></i>
+                    </div>
+                    <h4 class="text-lg font-bold text-slate-900 mb-2">日本語・韓国語対応可能</h4>
+                    <p class="text-slate-700 text-sm leading-relaxed">
+                        日本語でのきめ細やかなご相談はもちろん、韓国語での対応も可能です。言語の不安なく安心してご依頼いただけます。
+                    </p>
+                </div>
+                <div class="bg-sky-50/90 p-8 rounded-2xl border border-sky-200 shadow-xs">
+                    <div class="w-12 h-12 bg-blue-600 text-white rounded-xl flex items-center justify-center text-xl mb-6 shadow-sm">
+                        <i class="fa-solid fa-wrench"></i>
+                    </div>
+                    <h4 class="text-lg font-bold text-slate-900 mb-2">確かな技術力と丁寧な施工</h4>
+                    <p class="text-slate-700 text-sm leading-relaxed">
+                        トラブルの根本診断、美しい配線処理のカスタムPC組立、納品後のアフターフォローまで責任を持って対応します。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="relative z-10 py-20 bg-sky-100/50 border-t border-sky-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="text-blue-700 font-bold text-xs tracking-widest uppercase block mb-2">Services & Pricing</span>
+                <h3 class="text-3xl font-black text-slate-900">サービス・料金案内</h3>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div class="bg-sky-50/95 rounded-2xl p-8 shadow-xs border border-sky-200 flex flex-col justify-between">
+                    <div>
+                        <div class="text-blue-700 text-2xl mb-4"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                        <h4 class="text-lg font-bold text-slate-900 mb-2">カスタムPC組立代行</h4>
+                        <p class="text-slate-700 text-sm mb-6">パーツ持ち込み、または用途に合わせた最適なパーツ構成のご提案から組立まで。</p>
+                    </div>
+                    <div>
+                        <div class="text-xl font-black text-slate-900 mb-4">12,000円〜 <span class="text-xs font-normal text-slate-600">(税込)</span></div>
+                        <a href="https://lin.ee/6B4udni" target="_blank" class="block text-center bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-xl font-bold text-sm transition">公式LINEで相談する</a>
+                    </div>
+                </div>
+                <!-- Service 2 -->
+                <div class="bg-sky-50/95 rounded-2xl p-8 shadow-xs border border-sky-200 flex flex-col justify-between">
+                    <div>
+                        <div class="text-blue-700 text-2xl mb-4"><i class="fa-solid fa-stethoscope"></i></div>
+                        <h4 class="text-lg font-bold text-slate-900 mb-2">トラブル診断・修理</h4>
+                        <p class="text-slate-700 text-sm mb-6">「電源が入らない」「画面が映らない」「動作が重い」等の原因究明と部品交換。</p>
+                    </div>
+                    <div>
+                        <div class="text-xl font-black text-slate-900 mb-4">5,000円〜 <span class="text-xs font-normal text-slate-600">(税込)</span></div>
+                        <a href="https://lin.ee/6B4udni" target="_blank" class="block text-center bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-xl font-bold text-sm transition">公式LINEで相談する</a>
+                    </div>
+                </div>
+                <!-- Service 3 -->
+                <div class="bg-sky-50/95 rounded-2xl p-8 shadow-xs border border-sky-200 flex flex-col justify-between">
+                    <div>
+                        <div class="text-blue-700 text-2xl mb-4"><i class="fa-solid fa-database"></i></div>
+                        <h4 class="text-lg font-bold text-slate-900 mb-2">データ復旧・移行</h4>
+                        <p class="text-slate-700 text-sm mb-6">障害メディアからの重要データ救出、新PCへの安全なデータ引っ越し作業。</p>
+                    </div>
+                    <div>
+                        <div class="text-xl font-black text-slate-900 mb-4">8,000円〜 <span class="text-xs font-normal text-slate-600">(税込)</span></div>
+                        <a href="https://lin.ee/6B4udni" target="_blank" class="block text-center bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-xl font-bold text-sm transition">公式LINEで相談する</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Access Info Section -->
+    <section id="access" class="relative z-10 py-20 bg-sky-50/90 border-t border-sky-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-slate-900 text-white rounded-3xl p-8 sm:p-12 shadow-md border border-slate-800 flex flex-col md:flex-row items-center justify-between gap-8">
+                <div class="md:max-w-xl w-full">
+                    <span class="bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-md inline-block mb-4">店舗情報・アクセス</span>
+                    <h3 class="text-2xl sm:text-3xl font-black mb-4">北九州パソコン修理・組立工房 RY</h3>
+                    <p class="text-slate-300 text-sm leading-relaxed mb-4">
+                        <span class="block mb-1">📍 所在地：福岡県北九州市小倉北区東城野町9-21</span>
+                        <span class="block">💬 連絡先：公式LINE 1:1 チャットにて24時間受付</span>
+                    </p>
+                    <!-- 曜日별 상세 영업시간 표기 -->
+                    <div class="bg-slate-950 rounded-xl p-4 border border-slate-800 text-xs sm:text-sm text-slate-300 space-y-1.5">
+                        <div class="font-bold text-white mb-2 flex items-center gap-1.5"><i class="fa-regular fa-clock text-blue-400"></i> 営業時間（完全予約制）</div>
+                        <div class="flex justify-between border-b border-slate-800 pb-1"><span>日曜日</span><span>10:00 - 22:00</span></div>
+                        <div class="flex justify-between border-b border-slate-800 pb-1"><span>月曜日</span><span>18:30 - 22:00</span></div>
+                        <div class="flex justify-between border-b border-slate-800 pb-1"><span>火曜日</span><span>18:30 - 22:00</span></div>
+                        <div class="flex justify-between border-b border-slate-800 pb-1"><span>水曜日</span><span>18:30 - 22:00</span></div>
+                        <div class="flex justify-between border-b border-slate-800 pb-1"><span>木曜日</span><span>18:30 - 22:00</span></div>
+                        <div class="flex justify-between border-b border-slate-800 pb-1"><span>金曜日</span><span>18:30 - 22:00</span></div>
+                        <div class="flex justify-between"><span>土曜日</span><span>10:00 - 22:00</span></div>
+                    </div>
+                </div>
+                <div class="shrink-0">
+                    <a href="https://lin.ee/6B4udni" target="_blank" class="bg-emerald-600 hover:bg-emerald-700 text-white px-8 py-4 rounded-xl font-bold shadow-md transition inline-flex items-center space-x-3 text-base">
+                        <i class="fa-brands fa-line text-2xl"></i>
+                        <span>安全な公式LINEを開く</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="relative z-10 bg-slate-950 text-slate-400 py-12 border-t border-slate-900 text-xs">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-4">
+            <div class="text-center md:text-left">
+                <h4 class="text-white font-bold text-sm mb-1">北九州パソコン修理・組立工房 RY</h4>
+                <p class="text-slate-500">福岡県北九州市小倉北区東城野町9-21 | 完全予約制</p>
+            </div>
+            <div class="text-center md:text-right text-slate-500">
+                &copy; 北九州パソコン修理・組立工房 RY. All Rights Reserved.
+            </div>
+        </div> 
+    </footer> 
+
+</body> 
+</html>
